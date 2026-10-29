@@ -1,0 +1,13 @@
+{
+  "title": "Daily Login Attempts",
+  "subtitle": "Successful versus failed sign-ins over the past 7 days",
+  "period": "daily",
+  "categories": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+  "successful": [142, 195, 178, 265, 238, 305, 318],
+  "failed": [6, 4, 9, 12, 7, 5, 8],
+  "totalSuccessful": 1641,
+  "totalFailed": 51,
+  "successRate": "97.0%",
+  "peakPeriod": "Sun (318 successful)"
+}
+

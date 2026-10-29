@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "message": "OTP verification successful.",
+  "accessToken": "mock-jwt-token-xyz-123",
+  "user": {
+    "name": "Minhaj Khan",
+    "email": "student@educatehyderabad.net",
+    "role": "Administrator",
+    "initials": "MK"
+  }
+}
+
