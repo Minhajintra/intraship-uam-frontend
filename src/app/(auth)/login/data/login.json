@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "message": "Authentication successful. Multi-Factor verification required.",
+  "requiresOtp": true,
+  "user": {
+    "name": "Minhaj Khan",
+    "email": "student@educatehyderabad.net",
+    "role": "Administrator",
+    "initials": "MK"
+  }
+}
+

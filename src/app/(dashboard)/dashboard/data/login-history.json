@@ -1,0 +1,158 @@
+{
+  "title": "Login History",
+  "subtitle": "Detailed session and authentication audit records with multi-criteria filters and pagination",
+  "filterOptions": {
+    "statusOptions": ["All Statuses", "Success", "Failed", "MFA Required", "Blocked"],
+    "interfaceOptions": ["All Interfaces", "Web Portal", "Mobile App", "Admin CLI", "API Gateway"],
+    "dateRangeOptions": ["Last 24 Hours", "Last 7 Days", "Last 30 Days", "Custom Range"]
+  },
+  "pagination": {
+    "currentPage": 1,
+    "pageSize": 5,
+    "totalRecords": 10,
+    "totalPages": 2
+  },
+  "records": [
+    {
+      "id": "lh-001",
+      "userName": "Minhaj Khan",
+      "userEmail": "student@educatehyderabad.net",
+      "userInitials": "MK",
+      "userRole": "Administrator",
+      "interface": "Web Portal",
+      "ipAddress": "103.255.4.12",
+      "location": "Hyderabad, PK",
+      "device": "Chrome 131 • Windows 11",
+      "timestamp": "27 Oct 2026, 11:42 AM",
+      "status": "Success",
+      "failureReason": null
+    },
+    {
+      "id": "lh-002",
+      "userName": "Ayesha Malik",
+      "userEmail": "ayesha.m@example.com",
+      "userInitials": "AM",
+      "userRole": "Teacher",
+      "interface": "Mobile App",
+      "ipAddress": "39.40.18.91",
+      "location": "Karachi, PK",
+      "device": "IntraShip iOS • iPhone 15 Pro",
+      "timestamp": "27 Oct 2026, 11:38 AM",
+      "status": "Success",
+      "failureReason": null
+    },
+    {
+      "id": "lh-003",
+      "userName": "Hamza Ali",
+      "userEmail": "hamza.a@example.com",
+      "userInitials": "HA",
+      "userRole": "Administrator",
+      "interface": "Admin CLI",
+      "ipAddress": "182.185.12.7",
+      "location": "Islamabad, PK",
+      "device": "IntraShip CLI v2.4 • Ubuntu 24.04",
+      "timestamp": "27 Oct 2026, 11:22 AM",
+      "status": "Success",
+      "failureReason": null
+    },
+    {
+      "id": "lh-004",
+      "userName": "Usman Tariq",
+      "userEmail": "usman.t@example.com",
+      "userInitials": "UT",
+      "userRole": "Teacher",
+      "interface": "Web Portal",
+      "ipAddress": "119.160.67.201",
+      "location": "Lahore, PK",
+      "device": "Edge 130 • Windows 10",
+      "timestamp": "27 Oct 2026, 10:45 AM",
+      "status": "Failed",
+      "failureReason": "Incorrect password attempt (3/5)"
+    },
+    {
+      "id": "lh-005",
+      "userName": "Sara Ahmed",
+      "userEmail": "sara.ahmed@example.com",
+      "userInitials": "SA",
+      "userRole": "Support staff",
+      "interface": "Web Portal",
+      "ipAddress": "103.255.4.88",
+      "location": "Hyderabad, PK",
+      "device": "Firefox 132 • macOS Sonoma",
+      "timestamp": "27 Oct 2026, 10:14 AM",
+      "status": "MFA Required",
+      "failureReason": "Awaiting secondary SMS token verification"
+    },
+    {
+      "id": "lh-006",
+      "userName": "Partner Integration Service",
+      "userEmail": "sync-service@educatehyderabad.net",
+      "userInitials": "PI",
+      "userRole": "API Gateway",
+      "interface": "API Gateway",
+      "ipAddress": "34.142.120.4",
+      "location": "Frankfurt, DE",
+      "device": "Bearer Token • Python HTTP Client",
+      "timestamp": "27 Oct 2026, 09:50 AM",
+      "status": "Success",
+      "failureReason": null
+    },
+    {
+      "id": "lh-007",
+      "userName": "Fatima Noor",
+      "userEmail": "fatima.n@example.com",
+      "userInitials": "FN",
+      "userRole": "Teacher",
+      "interface": "Mobile App",
+      "ipAddress": "182.180.99.14",
+      "location": "Rawalpindi, PK",
+      "device": "IntraShip Android • Galaxy S24",
+      "timestamp": "27 Oct 2026, 09:32 AM",
+      "status": "Success",
+      "failureReason": null
+    },
+    {
+      "id": "lh-008",
+      "userName": "Bilal Hassan",
+      "userEmail": "bilal.h@example.com",
+      "userInitials": "BH",
+      "userRole": "Support staff",
+      "interface": "Web Portal",
+      "ipAddress": "175.107.214.33",
+      "location": "Peshawar, PK",
+      "device": "Safari 18 • iPad Pro",
+      "timestamp": "27 Oct 2026, 09:05 AM",
+      "status": "Success",
+      "failureReason": null
+    },
+    {
+      "id": "lh-009",
+      "userName": "Unknown Entity",
+      "userEmail": "admin@intraship-security.test",
+      "userInitials": "??",
+      "userRole": "Unauthenticated",
+      "interface": "Admin CLI",
+      "ipAddress": "45.154.255.90",
+      "location": "Unknown Location",
+      "device": "cURL 8.4 • Linux x86_64",
+      "timestamp": "27 Oct 2026, 08:15 AM",
+      "status": "Blocked",
+      "failureReason": "Blacklisted IP origin & unauthorized SSH certificate"
+    },
+    {
+      "id": "lh-010",
+      "userName": "Ahmed Raza",
+      "userEmail": "ahmed.r@example.com",
+      "userInitials": "AR",
+      "userRole": "Teacher",
+      "interface": "Web Portal",
+      "ipAddress": "39.50.84.112",
+      "location": "Karachi, PK",
+      "device": "Chrome 130 • Windows 11",
+      "timestamp": "26 Oct 2026, 07:48 PM",
+      "status": "Success",
+      "failureReason": null
+    }
+  ]
+}
+

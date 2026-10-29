@@ -1,0 +1,13 @@
+{
+  "title": "Monthly Login Attempts",
+  "subtitle": "Successful versus failed sign-ins over the past 6 months",
+  "period": "monthly",
+  "categories": ["May", "Jun", "Jul", "Aug", "Sep", "Oct"],
+  "successful": [4820, 5130, 5640, 6120, 6890, 7450],
+  "failed": [142, 168, 155, 189, 172, 198],
+  "totalSuccessful": 36050,
+  "totalFailed": 1024,
+  "successRate": "97.2%",
+  "peakPeriod": "October (7,450 successful)"
+}
+

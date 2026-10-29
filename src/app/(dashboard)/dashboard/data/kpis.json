@@ -1,0 +1,53 @@
+[
+  {
+    "id": "kpi-users",
+    "title": "Total Users",
+    "value": "348",
+    "badge": "▲ 12.8%",
+    "badgeType": "success",
+    "comparison": "vs. last month",
+    "iconType": "user",
+    "graphicType": "sparkline",
+    "iconBg": "#dcfce7",
+    "iconColor": "#15803d"
+  },
+  {
+    "id": "kpi-roles",
+    "title": "Active Roles",
+    "value": "8",
+    "badge": "▲ 2 new",
+    "badgeType": "success",
+    "comparison": "roles configured",
+    "iconType": "role",
+    "graphicType": "bars",
+    "iconBg": "#e0f2fe",
+    "iconColor": "#0284c7"
+  },
+  {
+    "id": "kpi-requests",
+    "title": "Access Requests",
+    "value": "24",
+    "badge": "● 7 pending",
+    "badgeType": "warning",
+    "comparison": "need your review",
+    "iconType": "request",
+    "graphicType": "progressDonut",
+    "progressValue": 71,
+    "progressLabel": "reviewed",
+    "iconBg": "#fef3c7",
+    "iconColor": "#d97706"
+  },
+  {
+    "id": "kpi-audit",
+    "title": "Audit Events",
+    "value": "1,248",
+    "badge": "▲ 8.4%",
+    "badgeType": "success",
+    "comparison": "this month",
+    "iconType": "audit",
+    "graphicType": "sparkline",
+    "iconBg": "#f3e8ff",
+    "iconColor": "#7e22ce"
+  }
+]
+
