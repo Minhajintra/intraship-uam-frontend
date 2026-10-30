@@ -1,0 +1,45 @@
+{
+  "title": "Interface-wise Access",
+  "subtitle": "Breakdown of authentication and API requests by client channel",
+  "totalRequests": "18,450",
+  "timeframe": "Current Month (Oct 2026)",
+  "interfaces": [
+    {
+      "id": "web-portal",
+      "name": "Web Portal",
+      "count": 10701,
+      "percent": 58,
+      "color": "#1e4d3a",
+      "trend": "+14.2%",
+      "description": "Standard desktop & tablet browser sessions"
+    },
+    {
+      "id": "mobile-app",
+      "name": "Mobile App",
+      "count": 4797,
+      "percent": 26,
+      "color": "#225740",
+      "trend": "+8.6%",
+      "description": "iOS and Android teacher/staff mobile clients"
+    },
+    {
+      "id": "admin-cli",
+      "name": "Admin CLI",
+      "count": 1845,
+      "percent": 10,
+      "color": "#8fb07a",
+      "trend": "+3.1%",
+      "description": "DevOps automated scripts & terminal tooling"
+    },
+    {
+      "id": "api-gateway",
+      "name": "API Gateway",
+      "count": 1107,
+      "percent": 6,
+      "color": "#d89a3a",
+      "trend": "+19.5%",
+      "description": "External partner systems & microservice tokens"
+    }
+  ]
+}
+

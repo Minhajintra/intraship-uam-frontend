@@ -1,0 +1,12 @@
+{
+  "title": "Users by Role",
+  "subtitle": "Distribution across workspace roles",
+  "totalUsers": "348",
+  "roles": [
+    { "name": "Teachers", "count": 214, "percent": 61, "color": "#1e4d3a" },
+    { "name": "Administrators", "count": 38, "percent": 10, "color": "#8fb07a" },
+    { "name": "Support staff", "count": 61, "percent": 17, "color": "#d89a3a" },
+    { "name": "Other", "count": 35, "percent": 10, "color": "#bcd3c4" }
+  ]
+}
+
